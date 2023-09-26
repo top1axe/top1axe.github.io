@@ -22,27 +22,16 @@ h2 {
   padding-bottom: 12px;
 }
 
-.site-new {
-  min-width: 550px;
-  margin-bottom: 130px;
-  padding-top: 30px;
-  background: #847462 no-repeat center url("img/qwqwqw.svg");
-
+.feature-vectorpaint {
+  padding-top: 65px;
+  background-image: url("img/qwqwqw.svg");
+}
+  
+  
   .container {
   width: 510px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-
-  .newimg {
-  min-width: 550px;
-  height: 186px;
-  margin-bottom: 70px;
-  padding-top: 30px;
-  background: #847462 no-repeat center url("img/qwqwqw.svg");
-  background-size: cover;
-  color: #ffffff;
 }
 
 .site-header {
