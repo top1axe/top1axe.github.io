@@ -58,7 +58,7 @@ h2 {
 }
 
 .features {
-  width: 510px;
+  width: 900px;
   margin: 0 auto 30px;
   padding: 0 20px;
 }
@@ -66,7 +66,7 @@ h2 {
 .features p {
   display: inline-block;
   vertical-align: top;
-  width: 30%;
+  width: 20%;
   margin: 0 5px;
   background-repeat: no-repeat;
   background-position: center top;
