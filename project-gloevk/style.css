@@ -28,6 +28,13 @@ h2 {
   padding: 0 20px;
 }
 
+.new-img {
+  padding-top: 75 px;
+  background-image: url("img/qwqwqw.svg");
+  
+
+}
+
 .site-header {
   min-width: 550px;
   height: 186px;
