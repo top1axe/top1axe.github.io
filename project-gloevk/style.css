@@ -29,7 +29,10 @@ h2 {
 }
 
 .new-img {
-  padding-top: 75 px;
+  padding-top: 30px;
+  margin-bottom: 70px;
+  min-width: 550px;
+  height: 186px;
   background-image: url("img/qwqwqw.svg");
   
 
