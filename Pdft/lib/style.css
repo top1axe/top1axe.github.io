@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.4rem;
+	background: rgb(202, 235, 181);
+	margin: 0;
+	padding: 1rem;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+ol {
+	list-style-position: inside;
+	width: auto;
+	max-width: 100%;
+	background: white;
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
+	padding: 0;
+	margin: 0;
+	border-radius: 0.1rem;
+	float: left;
+	height: auto;
+}
+.geom {
+	background-color: #f84914;
+}
+.alg {
+	background-color: #43b5f7;
+}
+.rus {
+	background-color: #fd54a3;
+}
+.lit {
+	background-color: #e3a62d;
+}
+.eng {
+	background-color: #bf1b4f;
+}
+.inf {
+	background-color: #460dbf;
+}
+.fiz {
+	background-color: #962fd6;
+}
+.mhk {
+	background-color: #058758;
+}
+.pred {
+	background-color: #c9bc24;
+}
+.ist {
+	background-color: #d4553b;
+}
+.geo {
+	background-color: #b2fa93;
+}
+.him {
+	background-color: #b81dcc;
+}
+.fizik {
+	background-color: #02f3f7;
+}
+.bio {
+	background-color: #31d62b;
+}
+.razg {
+	background-color: #a1101f;
+}
+
+li {
+	padding: 0 0 0 1rem;
+	border-bottom: 1px solid lightblue;
+}
+
+
+
+
+/*________________________________________________________________________*/
+::marker {
+	--image: '📩 ';
+	content: counter(list-item) ' ' var(--image);
+}
+
+li:nth-child(2)::marker {
+	--image: '🐈 ';
+}
+
+li:nth-child(3)::marker {
+	--image: '🗑 ';
+}
+
+li:nth-child(4)::marker {
+	--image: '🪴 ';
+}
+
+li:nth-child(5)::marker {
+	--image: '🔑 ';
+}
